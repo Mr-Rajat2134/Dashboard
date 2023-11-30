@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+// import { Divider } from '@mui/material';
 import './App.css';
+import Maindash from './Components/Maindash/Maindash';
+import RightSide from './Components/RightSide/RightSide';
+import Sidebar from './Components/Sidebar';
+
+
+// import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+<div className='AppGlass' >
+  <Sidebar/>
+ 
+  <Maindash/>
+<RightSide/>
+
+
+
+
+
+</div>
+     {/* <Routes>
+      <Route></Route>
+     </Routes> */}
     </div>
   );
 }
