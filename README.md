@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# Dashboard
+ Dashboards often feature a variety of widgets and visual representations such as charts, graphs, tables, and gauges. These elements are designed to present complex data in an easily understandable format, allowing users to quickly grasp trends, patterns, and outliers.
+>>>>>>> e0b3eb187d5b1c7d80628a86bf596af4b1930fe2
